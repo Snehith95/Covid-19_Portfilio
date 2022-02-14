@@ -1,5 +1,4 @@
-/*Covid 19 Data Exploration
-Cited: From the Alextheanalyst*/
+/*Covid 19 Data Exploration*/
 select *
 from PortfilioProject..covidDeaths
 order by 3,4
@@ -143,4 +142,6 @@ join PortfilioProject..covidVacinations vac
 on dea.location = vac.location
 and dea.date = vac.date
 where dea.continent is not null 
+
+/*Cited: From the Alextheanalyst*/
 
