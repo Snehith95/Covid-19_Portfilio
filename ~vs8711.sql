@@ -1,4 +1,5 @@
-/*Covid 19 Data Exploration */
+/*Covid 19 Data Exploration
+Cited: From the Alextheanalyst*/
 select *
 from PortfilioProject..covidDeaths
 order by 3,4
